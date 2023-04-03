@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+body {
+    background-color: #1D3557;
+    color: #F1FAEE;
+    font-family: 'Poppins', sans-serif;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+nav ul li {
+    padding: 10px 50px;
+    list-style: none;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -20px;
+}
+.title p {
+    margin-top: -20px;
+    font-weight: 600;
+}
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.circle {
+    border-radius: 50%;
+    background-color: hsla(203, 39%, 44%, 0.3);
+    position: absolute;
+    z-index: -1;
+}
+#circ1 {
+    height: 500px;
+    width: 500px;
+    transform: translate(800px, 0);
+}
+#circ2 {
+    height: 400px;
+    width: 400px;
+    transform: translate(100px, 100px);
+}
+#circ3 {
+    height: 300px;
+    width: 300px;
+    transform: translate(500px, 400px);
+}
+.left {
+    width: 45%;
+    margin-left: 50px;
+    border: 1px solid #E63946;
+    border-radius: 25px;
+    transform: translateX(-35px);
+    background-color: #E63946;
+    box-shadow: 0px 5px 5px 5px #5B0B12;
+}
+.left h3, .right h3, .left p, .right p {
+    text-align: center;
+    width: 85%;
+    padding: 0 40px;
+}
+.right {
+    width: 45%;
+    margin-left: 50px;
+    border: 1px solid #E63946;
+    border-radius: 25px;
+    padding-bottom: 50px;
+    background-color: #E63946;
+    box-shadow: 0px 5px 5px 5px #5B0B12;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dealcard {
+    margin: 0 15px;
+    background-color: #F1FAEE;
+    border-radius: 25px;
+    width: 30%;
+    color: #1D3557;
+    text-align: center;
+}
+.deal {
+    border: 1px solid #5FBCBF;
+    width: 150px;
+    background-color: #5FBCBF;
+    border-radius: 25px;
+    transform: translate(140px, 20px);
+}
+.deal p {
+    padding-left: 17px;
+    height: 10px;
+    color: #1D3557;
+    transform: translateY(-7px);
+}
+del {
+    color: #E63946;
+}
+
+button{
+    background-color: #1D3557;
+    color: #fff;
+    padding: 10px;
+    width: 200px;
+    border-radius: 25px;
+    box-shadow: 0px 5px 5px 0 #0F1C2E;
+    font-size: 14px;
+}
